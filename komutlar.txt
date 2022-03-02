@@ -1,0 +1,19 @@
+sudo
+clear== temizlemek
+hostname
+pwd == adresi vermek
+cd == dizin değiştirmek 
+history == önceden yazdığımız kodları görüntüler
+ls == listelemek
+mkdir == mkdir deneme
+touch == touch deneme.txt
+echo == echo birşeyler yaz>deneme.txt  veya echo birşeyler yaz>>deneme.txt dosya içerisine veri yazmak
+rm deneme.txt == klasör silmek
+rmdir dizinadi == 1 tane dizin silmek
+rm -r deneme == n tane dizin silmek için
+
+
+
+
+
+
