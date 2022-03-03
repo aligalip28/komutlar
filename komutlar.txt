@@ -1,19 +1,43 @@
 sudo
-clear== temizlemek
+clear ==>> temizlemek
 hostname
-pwd == adresi vermek
-cd == dizin değiştirmek 
-history == önceden yazdığımız kodları görüntüler
-ls == listelemek
-mkdir == mkdir deneme
-touch == touch deneme.txt
-echo == echo birşeyler yaz>deneme.txt  veya echo birşeyler yaz>>deneme.txt dosya içerisine veri yazmak
-rm deneme.txt == klasör silmek
-rmdir dizinadi == 1 tane dizin silmek
-rm -r deneme == n tane dizin silmek için
+pwd ==>> adresi vermek
+cd ==>> dizin değiştirmek 
+history ==>> önceden yazdığımız kodları görüntüler
+ls ==>> listelemek
+
+mkdir ==>> mkdir deneme
+touch ==>> touch deneme.txt
+echo ==>> echo birşeyler yaz>deneme.txt  veya echo birşeyler yaz>>deneme.txt dosya içerisine veri yazmak
+
+rm deneme.txt ==>> klasör silmek
+rmdir dizinadi ==>> 1 tane dizin silmek
+rm -r deneme ==>> n tane dizin silmek için
+
+cat bilgi.txt  ===>> içini okur
+cat > bilgi.txt  ==>> üstüne siler ve yazar
+cat >> bilgi.txt  ==>> içine ekler
+
+zip -r compressed bilgi.txt
+sudo apt-get install zip
+sudo apt-get install unzip
+
+ping ister domain adı ister sabit ip
+ping sabit_ip
+
+mv eskiIsim.txt deneme/yenisim.txt
+
+mv 444.txt kopya/    
+
+diff 2 dosaya arasındaki farkı gösterir ==>> diff deneme.txt deneme2.txt
+
+grep giresun deneme.txt ===>>  deneme içinde ggiresunu arar
+
+man mkdir ===>>  mkdir hakkında bilgiler verecektir
 
 
-
-
+wget == internetten indermek istediğimiz programları indirir
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 
 
